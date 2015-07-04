@@ -1,0 +1,28 @@
+Project title : 汇编测试
+Project path  : H:\CodeBlocks\share\CodeBlocks\Projects\汇编测试\
+
+Frame function: main (H:\CodeBlocks\share\CodeBlocks\Projects\汇编测试\main.cpp:7)
+Frame address : 0028FF20
+--------------------------------------------------------------------------------
+0x00401334	lea    0x4(%esp),%ecx
+0x00401338	and    $0xfffffff0,%esp
+0x0040133B	pushl  -0x4(%ecx)
+0x0040133E	push   %ebp
+0x0040133F	mov    %esp,%ebp
+0x00401341	push   %ecx
+0x00401342	sub    $0x24,%esp
+0x00401345	call   0x4165a0 <__main>
+0x0040134A	movl   $0x1,-0xc(%ebp)
+0x00401351	movl   $0x2,-0x10(%ebp)
+0x00401358	movl   $0x46e024,0x4(%esp)
+0x00401360	movl   $0x477860,(%esp)
+0x00401367	call   0x468dc8 <std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)>
+0x0040136C	movl   $0x467a24,(%esp)
+0x00401373	mov    %eax,%ecx
+0x00401375	call   0x449434 <std::ostream::operator<<(std::ostream& (*)(std::ostream&))>
+0x0040137A	sub    $0x4,%esp
+0x0040137D	mov    $0x0,%eax
+0x00401382	mov    -0x4(%ebp),%ecx
+0x00401385	leave
+0x00401386	lea    -0x4(%ecx),%esp
+0x00401389	ret
